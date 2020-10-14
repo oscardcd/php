@@ -1,0 +1,81 @@
+.navegador{
+    display: grid;
+    margin:0;
+}
+.iconm{
+    display: none;
+    margin: 0;
+}
+ul>div>label{
+    display: none;
+}
+
+.nav-pills{    
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+}
+
+a{
+    text-decoration: none;
+    
+}
+.nav-item{
+    text-align: center;
+    background-color:#BFBFBF;   
+    border-left: gray;   
+    margin-left: 5px;
+    border-radius: 5px;
+    color: honeydew;
+    height: 35px;
+    
+}
+ol{
+    margin-top: 10px;
+}
+ol>p{
+    color:black;
+}
+
+.nav-item:hover{
+  
+    background-color: grey;
+    border-right: 7px solid #444444;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3;
+    transition: all 0.3s;
+}
+.nav-item>ol>p:hover{
+    color: white;
+}
+
+@media all and (max-width: 900px) and (min-width: 200px) {
+   header,
+   .navegador{
+     
+   
+   
+   }
+  
+   .iconm{
+      
+    width: 40px;
+    display: grid;
+   margin-left: 20px;
+   margin-top: 20px; 
+   
+   }
+   ul>div>label{
+    display:grid;
+    margin-left: 20px; 
+}
+   .iconmO{
+    width: 40px;
+    display: inline-flex;
+   margin-left: 20px;
+   margin-top: 20px; 
+    width: 60px;
+
+   }
+ 
+       
+}
